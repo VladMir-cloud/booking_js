@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    margin: 0 0 20px;
+  }
+  
+  #roomList, #calendar, #booking {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  #rooms {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #rooms li {
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #rooms li:hover {
+    background-color: #ddd;
+  }
+  
+  #calendarContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .calendar-date {
+    width: 14%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .booked {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .free {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Room 101",
+      "bookings": [
+        {
+          "date": "2024-07-01",
+          "personId": 1
+        },
+        {
+          "date": "2024-07-02",
+          "personId": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Room 102",
+      "bookings": []
+    },
+    {
+      "id": 3,
+      "name": "Room 103",
+      "bookings": [
+        {
+          "date": "2024-07-03",
+          "personId": 1
+        }
+      ]
+    }
+  ]
+  
